@@ -39,7 +39,9 @@ class FOSPropel1UserExtension extends Extension implements PrependExtensionInter
         $container->prependExtensionConfig('fos_user', array(
             'db_driver' => 'custom',
             'user_class' => 'FOS\Propel1UserBundle\Model\User',
-            'user_manager' => 'fos_propel1_user.user_manager',
+            'service' => array(
+                'user_manager' => 'fos_propel1_user.user_manager'
+            ),
             'group' => array(
                 'group_class' => 'FOS\Propel1UserBundle\Model\Group',
                 'group_manager' => 'fos_propel1_user.group_manager',

@@ -22,6 +22,10 @@
         "propel/propel-bundle": "^1.4",
         "willdurand/propel-typehintable-behavior": "^1.0.3"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35 || ^5.7",
+        "symfony/phpunit-bridge": "^3.2"
+    },
     "autoload": {
         "psr-4": {
             "FOS\\Propel1UserBundle\\": ""

@@ -31,4 +31,4 @@ before_install:
 install: composer update --prefer-dist $COMPOSER_FLAGS
 
 script:
-  - phpunit
+  - ./vendor/bin/phpunit

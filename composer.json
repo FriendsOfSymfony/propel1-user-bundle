@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": "^5.5.9 || ^7.0",
-        "friendsofsymfony/user-bundle": "^2.0.0-alpha4@dev",
+        "friendsofsymfony/user-bundle": "^2.0",
         "propel/propel1": "^1.6.8",
         "propel/propel-bundle": "^1.4",
         "willdurand/propel-typehintable-behavior": "^1.0.3"
